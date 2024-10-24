@@ -1,0 +1,38 @@
+/* @import url(bootstrap.css); */
+
+/* reset style */
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none ;
+    
+}
+a{
+    text-decoration: none;
+}
+/* -------------------------------------------------------------------------------- */
+
+/* navbar sec */
+.wrp-item li{
+    margin: auto 6%;
+}
+.navbar li a{
+    color: black;
+    font-weight: 600;
+}
+.wrp-smedia li :hover{
+    width: 35px;
+}
+[class|="fa-"]{
+    font-size: 2vw;
+}
+/* 
+------------------------------------------------------------------------------------- */
+/* hero header style */
+.hero-sec{
+    width: 100%;
+    height: vh;
+    background: url(../img/hero-header-img.jpg) no-repeat;
+}
+

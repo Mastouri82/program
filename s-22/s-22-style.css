@@ -1,0 +1,88 @@
+/* syntax */
+
+/* selector {
+    property : value ;
+} */
+
+/* ---------------------------------------------------------------------------------- */
+
+/* selctor */
+
+/* id selector */
+
+#tx-1 {
+  background-color: aqua;
+  margin-bottom: 50px;
+}
+/* ---------------------------------------------------------------------------------- */
+
+/* class selector */
+
+.tx-2 {
+  background-color: blueviolet;
+  color: white;
+}
+/* ---------------------------------------------------------------------------------- */
+
+/* universal selector */
+
+* {
+  text-align: center;
+}
+/* ---------------------------------------------------------------------------------- */
+
+/* element selector */
+
+p {
+  font-size: 20px;
+  width: 70%;
+}
+/* ---------------------------------------------------------------------------------- */
+
+/* انتخاب عنصر فرزند توسط عنصر والد */
+#link-1{
+  background-color: red;
+}
+
+.section-1 a{
+  color: white;
+  padding: 10px;
+}
+/* ---------------------------------------------------------------------------------- */
+
+/* انتخاب همزمان دو عنصر برای دادن  پراپرتی یکسان */
+/* .tx-2{
+  background-color: black;
+}
+#tx-1{
+  background-color: black;
+} */
+
+ #tx-1,.tx-2{
+  background-color: blue;
+ }
+
+ /* ---------------------------------------------------------------------------------- */
+
+ /* colors */
+ .tx-3{
+  color: rgb(238, 209, 215);
+  background-color: crimson;
+  border:2px #3232e0 solid;
+ }
+ /* ---------------------------------------------------------------------------------- */
+
+ /* background */
+ .wrp-sec-2{
+  margin: auto;
+  width: 50%;
+  height: 500px;
+  
+  /* backgroun type */
+  /*1*/ background-color: cadetblue;
+  /*2*/ background-image: url(./pexels-khadijah-27993161.jpg);
+  /*3*/ background-repeat: no-repeat;
+  /*4*/ background-size: cover /*contain*/ /*50% 70%*/  ;
+  /*5*/ 
+ }
+
