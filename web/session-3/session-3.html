@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>session 3</title>
+</head>
+<body>
+    <h1>Welcome to Session 3</h1>
+    <p class="output"></p>
+
+    <script>
+       
+       
+
+        function functionName() {
+            console.log('functionName');
+        }
+        function cross(a,b=6){
+            c = a * b;
+            // alert(c);
+            return c;
+        }
+        cross(2,3);
+        let u = cross(5,5);
+        document.querySelector('.output').innerHTML = u;
+    </script>
+</body>
+</html>
